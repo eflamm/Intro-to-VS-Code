@@ -1,0 +1,39 @@
+//check npm version
+npm -v
+
+//update GAC npm to latest
+npm install npm@latest -g
+
+//verify new version
+npm -v
+
+//To update Node, you’ll need npm’s handy n module. Run this code to clear npm’s cache, install n, and install the latest stable version of Node:
+	
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+
+//install angular clli
+sudo npm install -g @angular/cli
+
+//create a new app
+ng new my-app
+
+//serve the app
+cd my-app
+ng serve --open
+
+//The CLI created the first Angular component for you. This is the root component and it is named app-root. You can find it in ./src/app/app.component.ts.
+
+//Open the component file and change the title property from Welcome to app!! to Welcome to My First Angular App!!:
+
+//Open src/app/app.component.css and give the component some style.
+//src/app/app.component.css
+      
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
